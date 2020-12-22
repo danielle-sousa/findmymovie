@@ -1,5 +1,7 @@
 @import 'reset';
 @import 'themes';
+@import '~font-awesome/css/font-awesome.min.css';
+
 
 body {
   margin: 0;
@@ -41,4 +43,13 @@ body {
 
 .quebrar-linha {
   white-space: pre-line;
+}
+
+.mat-toolbar.mat-primary {
+  background: #673ab7;
+  color: white;
+}
+
+footer {
+  background-color: #673ab7;
 }
